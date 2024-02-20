@@ -2,6 +2,8 @@
 
 This is a minimum TypeScript Node/Express API that is ready to add any data source to and host at backend providers such as Render.
 
+![grafik](https://github.com/edwardtanguay/template-minimal-node-express-api/assets/446574/af528761-9e21-48c5-8b31-920d57f7d094)
+
 ## features
 
 - Node/Express
@@ -13,7 +15,7 @@ This is a minimum TypeScript Node/Express API that is ready to add any data sour
 - .env file
 - routers
 - handlers
-- hosting ready e.g. at Render (has appropriate npm scripts)
+- online hosting ready
 
 ## setup and start
   - `npm run build` 
