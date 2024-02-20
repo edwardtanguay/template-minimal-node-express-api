@@ -1,0 +1,39 @@
+@url = http://localhost:4206
+	
+### FETCH ALL FLASHCARDS
+GET {{url}}/flashcards
+	
+### FETCH ONE FLASHCARD
+GET {{url}}/flashcards/82Js23
+
+### CREATE FLASHCARD
+POST {{url}}/flashcards
+content-type: application/json
+
+{
+    "category": "ccc",
+    "front": "fff",
+    "back": "bbb"
+}
+
+### REPLACE FLASHCARD
+PUT {{url}}/flashcards
+content-type: application/json
+
+{
+    "suuid": "z0fry4",
+    "category": "CHANGED ccc",
+    "front": "CHANGED front",
+    "back": "CHANGED back"
+}
+
+### CHANGE PROPERTY ON FLASHCARD
+PATCH {{url}}/flashcards/z0fry4
+content-type: application/json
+
+{
+	"category": "ruby"
+}
+
+### DELETE FLASHCARD
+DELETE {{url}}/flashcards/z0fry4
