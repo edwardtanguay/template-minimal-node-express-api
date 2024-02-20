@@ -19,7 +19,7 @@ This is a minimum TypeScript Node/Express API that is ready to add any data sour
 
 ## setup
   - `npm i`
-  - **.env**
+  - create **.env** file in root directory
 
 ```
 APP_TITLE = Node/Express API
