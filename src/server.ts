@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 	<body>
 	<h1>${process.env.APP_TITLE}</h1>
 	<ul>
-		<li>GET all users - <a href="/employees">/employees</a></li>
+		<li>GET all employees - <a href="/employees">/employees</a></li>
 	</ul>
 	</body>
 </html>
