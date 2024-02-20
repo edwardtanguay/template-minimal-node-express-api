@@ -2,7 +2,9 @@
 import express from 'express';
 import cors from 'cors';
 import { employeeRouter } from './routers/employeeRouter';
-import * as config from './config.js';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 export const app = express();
 app.use(express.json());
@@ -12,9 +14,9 @@ app.get('/', (req, res) => {
 	res.send(`
 <html>
 	<body>
-	<h1>Minimal Node/Express API</h1>
+	<h1>${process.env.APP_TITLE}</h1>
 	<ul>
-		<li>GET all users - <a href="http://localhost:${config.getPort()}/employees">http://localhost:${config.getPort()}/employees</a></li>
+		<li>GET all users - <a href="/employees">/employees</a></li>
 	</ul>
 	</body>
 </html>
