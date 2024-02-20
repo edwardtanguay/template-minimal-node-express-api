@@ -1,6 +1,8 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import express, { NextFunction } from 'express';
+import express from 'express';
 import cors from 'cors';
+import { employeeRouter } from './routers/employeeRouter';
+import * as config from './config.js';
 
 export const app = express();
 app.use(express.json());
@@ -12,7 +14,7 @@ app.get('/', (req, res) => {
 	<body>
 	<h1>Minimal Node/Express API</h1>
 	<ul>
-		<li>GET all users - <a href="http://localhost:4206/flashcards">http://localhost:4206/flashcards</a></li>
+		<li>GET all users - <a href="http://localhost:${config.getPort()}/employees">http://localhost:${config.getPort()}/employees</a></li>
 	</ul>
 	</body>
 </html>
@@ -20,4 +22,4 @@ app.get('/', (req, res) => {
 
 });
 
-// app.use('/flashcards', flashcardRouter);
+app.use('/employees', employeeRouter);
