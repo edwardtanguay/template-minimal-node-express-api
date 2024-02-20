@@ -1,6 +1,6 @@
 # template-minimal-node-express-api
 
-This is a minimum TypeScript Node/Express API that is ready to add any data source to and host at backend providers such as Render.
+This is a minimum TypeScript Node/Express API that is ready to add any data source to and host at online backend providers such as Render.
 
 ![grafik](https://github.com/edwardtanguay/template-minimal-node-express-api/assets/446574/16c00a5d-5587-489c-8d20-bcbfd8df1c22)
 
