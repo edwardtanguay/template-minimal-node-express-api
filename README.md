@@ -27,5 +27,7 @@ This is a minimum TypeScript Node/Express API that is ready to add any data sour
 - if you want to host this backend at a hosting service such as **Render**, use these scripts:
   - build command: `npm i && npm run build`
   - start command: `npm start`
+- this template is hosted at https://template-minimal-node-express-api.onrender.com (published as free Render web server which has a 30-60 second delay if API has not been recently accessed)
+  - https://template-minimal-node-express-api.onrender.com
 
 ![grafik](https://github.com/edwardtanguay/template-api-node-express-typescript-es6-modules-lowdb/assets/446574/4c57128a-c648-4c9a-9c3f-509fc1fb72aa)
