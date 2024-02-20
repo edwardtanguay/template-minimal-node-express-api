@@ -1,6 +1,6 @@
 # template-minimal-node-express-api
 
-This is a minimum Node/Express API that has two purposes:
+This is a minimum TypeScript Node/Express API that is ready to add any data source to and host at backend providers such as Render.
 
 ## features
 
@@ -10,6 +10,10 @@ This is a minimum Node/Express API that has two purposes:
   - compiled with tsc
   - watched with nodemon
 - ES6 modules
+- .env file
+- routers
+- handlers
+- hosting ready e.g. at Render (has appropriate npm scripts)
 
 ## setup and start
   - `npm run build` 
@@ -18,7 +22,7 @@ This is a minimum Node/Express API that has two purposes:
 ## hosting
 
 - the package json has two scripts ready for hosting: `build` and `start`
-- if you want to host this backend at a hosting service such as **Render** or **Cyclic**, or a cloud machine at e.g. **Hetzner** or **DigitalOcean**, use these scripts:
+- if you want to host this backend at a hosting service such as **Render**, use these scripts:
   - build command: `npm i && npm run build`
   - start command: `npm start`
 
