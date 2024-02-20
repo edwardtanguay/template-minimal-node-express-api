@@ -17,9 +17,16 @@ This is a minimum TypeScript Node/Express API that is ready to add any data sour
 - handlers
 - online hosting ready
 
-## setup and start
-  - `npm run build` 
-  - `npm start`
+## setup
+  - `npm i`
+  - **.env**
+
+```
+APP_TITLE = Node/Express API
+```
+
+## start
+  - `npm run dev`
 
 ## hosting
 
