@@ -23,7 +23,7 @@ This is a minimum TypeScript Node/Express API that is ready to add any data sour
 
 ## hosting
 
-- the package json has two scripts ready for hosting: `build` and `start`
+- the **package.json** file has two scripts ready for hosting: `build` and `start`
 - if you want to host this backend at a hosting service such as **Render**, use these scripts:
   - build command: `npm i && npm run build`
   - start command: `npm start`
