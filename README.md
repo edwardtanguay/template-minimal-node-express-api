@@ -2,7 +2,7 @@
 
 This is a minimum TypeScript Node/Express API that is ready to add any data source to and host at online backend providers such as Render.
 
-![grafik](https://github.com/edwardtanguay/template-minimal-node-express-api/assets/446574/16c00a5d-5587-489c-8d20-bcbfd8df1c22)
+![grafik](https://github.com/edwardtanguay/template-minimal-node-express-api/assets/446574/4898dafc-85e7-4ac5-b3cd-c20087b4636c)
 
 ## features
 
